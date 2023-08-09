@@ -2,10 +2,14 @@
 title: "Day_3_Tasks"
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+## Making and storing two new vectors
 
 ```{r}
-1 + 1
+vec_a <- c(1,6)
+vec_b <- c(2,4)
+
+vec_aplusvec_b <- vec_a +vec_b
+vec_bminusvec_a <- vec_b - vec_a
+four_a <- 4* vec_a
+adotb <- vec_a %*% vec_b
 ```
